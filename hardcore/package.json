@@ -1,0 +1,24 @@
+{
+  "name": "play-ts-cucumber",
+  "version": "1.0.0",
+  "description": "Playwright Cucumber TS framework - The easiest way to learn",
+  "main": "index.js",
+  "scripts": {
+    "env:saucedemo": "cross-env test_env=saucedemo npx playwright test tests/loginPageTest.spec.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "chai": "^5.0.3",
+    "cross-env": "^7.0.3",
+    "cucumber": "^6.0.7",
+    "cucumberjs-junitxml": "^1.0.0",
+    "playwright": "^1.41.2",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.3.1",
+    "@playwright/test": "^1.41.2",
+    "dotenv": "^16.4.1",
+    "js-yaml": "^4.1.0"
+  }
+}
